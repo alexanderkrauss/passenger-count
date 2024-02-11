@@ -11,7 +11,7 @@ function increment() {
 
 // Zwichenspeichern
 function save() {
-      let output = count + " -"
+      let output = count + " - "
       saveCount.textContent += output
       count = 0
       countEl.textContent = count
